@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sed.UsefulDotNetPatterns.BuilderPattern", "Sed.UsefulDotNetPatterns.BuilderPattern\Sed.UsefulDotNetPatterns.BuilderPattern.csproj", "{2EFBDA0B-B7DF-4673-A049-7177FDAE22B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sed.UsefulDotNetPatterns.FactoryPattern", "Sed.UsefulDotNetPatterns.FactoryPattern\Sed.UsefulDotNetPatterns.FactoryPattern.csproj", "{731D28D6-A860-4D7B-8F8D-8B28AD41ABB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EFBDA0B-B7DF-4673-A049-7177FDAE22B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EFBDA0B-B7DF-4673-A049-7177FDAE22B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EFBDA0B-B7DF-4673-A049-7177FDAE22B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EFBDA0B-B7DF-4673-A049-7177FDAE22B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{731D28D6-A860-4D7B-8F8D-8B28AD41ABB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{731D28D6-A860-4D7B-8F8D-8B28AD41ABB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{731D28D6-A860-4D7B-8F8D-8B28AD41ABB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{731D28D6-A860-4D7B-8F8D-8B28AD41ABB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47A7B465-8B35-4CB5-BB35-FDDE83465363}
+	EndGlobalSection
+EndGlobal
