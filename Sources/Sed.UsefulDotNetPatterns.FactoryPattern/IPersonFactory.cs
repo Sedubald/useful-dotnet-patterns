@@ -2,7 +2,7 @@
 
 internal interface IPersonFactory
 {
-    Person Create(string firstName, string lastName);
+    IPerson Create(PersonType type, string firstName, string lastName);
 
-    Person Create(string firstName, string lastName, int age);
+    IPerson Create(PersonType type, string firstName, string lastName, int age);
 }
