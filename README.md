@@ -7,11 +7,11 @@ Please create an issue if you notice a lack of quality or if you miss something.
 
 ## Builder pattern
 
-
+The *builder pattern* separates the construction of complex types into multiple build steps. So the *builder pattern* is a *creational pattern*. It is possible to add an optional *director* to ensure a building sequence and / or to hide the build logic from the client.
 
 ## Factory pattern
 
-The *factory pattern* helps to hide the object instanciation to the client. An object is not created by calling the constructor, but is requested by the factory. So the *factory pattern* is a *creational pattern*. The returned classes of factories are often called *products*. The pattern provides the advantage that a new concrete product can be added by extending the existing factory or by creating a new one. The existing code will not break in both cases.
+The *factory pattern* helps to hide the object instanciation from the client. An object is not created by calling the constructor, but is requested by the factory. So the *factory pattern* is a *creational pattern*. The returned classes of factories are often called *products*. The pattern provides the advantage that a new concrete product can be added by extending the existing factory or by creating a new one. The existing code will not break in both cases.
 
 ## Singleton pattern
 

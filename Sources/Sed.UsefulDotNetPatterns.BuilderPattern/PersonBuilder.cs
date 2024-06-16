@@ -14,11 +14,13 @@ internal class PersonBuilder
         this._person.FirstName = firstName;
         return this;
     }
+
     public PersonBuilder WithLastName(string lastName)
     {
         this._person.LastName = lastName;
         return this;
     }
+
     public PersonBuilder WithAge(int age)
     {
         this._person.Age = age;
