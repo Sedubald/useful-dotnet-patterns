@@ -1,13 +1,17 @@
 # useful-dotnet-patterns
 This solution contains some useful .NET patterns. Patterns are a set of best practices to solve common problems, they are reusable and support the developers to create flexible, scalable and maintainable software solutions.
 
+---
+
+Please create an issue if you notice a lack of quality or if you miss something.
+
 ## Builder pattern
 
 
 
 ## Factory pattern
 
-The *factory pattern* helps to hide the object instanciation to the client. An object is not created by calling the constructor, but is requested by the factory. So the *factory pattern* is a *creational pattern*. The returned classes of factories are often called *products*. This provides the advantage that a new concrete implementation can be added by extending 
+The *factory pattern* helps to hide the object instanciation to the client. An object is not created by calling the constructor, but is requested by the factory. So the *factory pattern* is a *creational pattern*. The returned classes of factories are often called *products*. The pattern provides the advantage that a new concrete product can be added by extending the existing factory or by creating a new one. The existing code will not break in both cases.
 
 ## Singleton pattern
 
